@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>table[1].html</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Exercice</h2>
+        <p>2023</p>
+    </div>
+    <div class="container">
+        <form action="">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th class="tl" colspan="2">Telephone</th>
+                </tr>
+                <tr>
+                    <td class="left-col">
+                        <div>
+                            <p>First name:</p>
+                            <input type="text" value="Micky">
+                            <p>Last name: </p>
+                            <input type="text" value="Mouse">
+                        </div>
+                    </td>
+                    <td class="mid-col myop">
+                        <select name="cars" id="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </td>
+                    <td class="right-col">
+                        <div class="right-col">
+                            <p>First name:</p>
+                            <input type="text" value="Micky">
+                            <p>Last name: </p>
+                            <input type="text" value="Mouse">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-col">
+                        <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ol>
+                    </td>
+                    <td class="mid-col">
+                        <img src="image/img1.png" alt="img1">
+                    </td>
+                    <td class="right-col">
+                        <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-col">
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label><br>
+
+                    </td>
+                    <td class="mid-col">
+                        <input type="checkbox" id="bike" name="have" value="I have a bike">
+                        <label for="bike">I have a bike</label><br>
+                        <input type="checkbox" id="car" name="have" value="I have a car">
+                        <label for="car">I have a car</label><br>
+                    </td>
+                    <td class="right-col">
+                        <input class="btn" type="button" name="" value="Click !!!">
+                        <input class="sb" type="submit" value="Submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-col">
+                        <div>
+                            <p>Quantity (between 1 and 5):</p>
+                            <input type="number" minlength="1" maxlength="5">
+                        </div>
+                        <div>
+                            <p>Quantity: </p>
+                            <input type="number" value="30">
+                        </div>
+
+                    </td>
+                    <td class="mid-col">
+                        <div class="file-container">
+                            <label for="file1" class="custom-button">Choose File</label>
+                            <span class="no-file-chosen">No file chosen</span>
+                            <input class="file1" type="file" id="file1">
+                        </div>
+                    </td>
+                    <td class="right-col">
+                        <div>
+                            <p>Enter your email:</p>
+                            <input type="email">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-col">
+                        <div>
+                            <p>Choose color: </p>
+                            <input type="color" value="#123456">
+                        </div>
+                    </td>
+                    <td class="mid-col">
+                        <div class="date">
+                            <p for="min-date">Enter a date after 2000-01-01:</p>
+                            <input type="date" id="min-date" name="min-date" min="2000-01-02">
+
+                            <p for="max-date">Enter a date before 1980-01-01:</p>
+                            <input type="date" id="max-date" name="max-date" max="1979-12-31">
+                        </div>
+                    </td>
+                    <td class="right-col">
+                        <div>
+                            <p>Birthday (date and time): </p>
+                            <input type="datetime-local">
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
